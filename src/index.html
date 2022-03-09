@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="/dist/output.css" rel="stylesheet">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
 <body class="overflow-x-hidden">
     <!-- banner section -->
@@ -72,6 +73,39 @@
       <p class="mb-7">Spring/Summer 2022</p>
       <a href="#" class="bg-white rounded-md text-xl text-slate-900 py-3 px-8 transition ease-in duration-300 hover:bg-slate-300">Shop now</a>
     </div>
+  </section>
+
+  <section class="pt-44 ml-7 mb-14">
+  <div class="mb-20">
+    <span class="text-xl mr-6">In stock:</span>
+    <span class="py-3 px-5 border-2 border-gray-900 text-xl font-bold" style="background-color: #daf196">1</span>
+  </div>
+  <div class="flex mb-16">
+    <div class="flex">
+      <button class="border-2 p-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-dash-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+      </svg>
+    </button>
+      <span class="border-t-2 border-b-2 p-4 text-xl">1</span>
+      <button class="border-2 p-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+          <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+        </svg>
+      </button>
+    </div>
+    <button class="py-3 text-xl text-slate-700 font-semibold px-11 ml-10" style="background-color: #daf196">ADD TO CARD</button>
+  </div>
+  <!-- conditional rendering -->
+  <div class=" flex text-slate-700 bg-gray-100 border-2 p-6 text-xl align-middle w-2/4">
+    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-stopwatch" viewBox="0 0 16 16">
+      <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+      <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+    </svg>
+    <p class="ml-5">Only <span class=" font-semibold">3</span> left. Hurry Up!</p> 
+  </div>
   </section>
 </body>
 </html>
